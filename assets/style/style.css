@@ -1,0 +1,54 @@
+.artistbackground
+{
+  background: url("../images/thebeatles1967.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  border-radius: 5px;
+}
+
+.artist img{
+  margin: 0.5em;
+  width: 8em;
+  height: 8em;
+  border: 1px solid #FEC132;
+  object-fit: cover;
+
+}
+
+.artisttext
+{
+  margin-top: 2em;
+  color: #FEC132;
+  margin-left: 50%;
+  margin-right: 50%;
+  
+}
+
+.container
+{
+  display: flex;
+  flex-direction: row;
+    
+  width: 100%;
+}
+
+.contentartists
+{
+  margin-top: 15em;
+  margin-bottom:1em;
+}
+
+.artistimg:hover
+{
+  
+  background-color: #FEC132;
+
+}
+
+
+
+
+
+
