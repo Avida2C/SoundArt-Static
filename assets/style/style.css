@@ -25,36 +25,6 @@
 
 }
 
-.artist img:hover
-{
-  border: solid 4px #FEC132;
-}
-
-.artisttext
-{
-  color: #FEC132;
-  margin-left: 58%;
-  margin-right: 42%;
-
-  background-color: rgba(0, 0, 0, 0.45);
-  border-radius: 5px;
-  padding: 1em;
-}
-
-
-.container01
-{
-  width: 100%;
-   
-}
-
-.container02
-{
-  margin-top: 15em;
-  padding-bottom: 2em;
-}
-
-
 #artistlink 
 {
   background-color: #FEC132;
@@ -71,4 +41,32 @@
   padding: 0.2em;
 }
 
+.artisttext
+{
+  color: #FEC132;
+  margin-left: 58%;
+  margin-right: 42%;
+
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 5px;
+  padding: 1em;
+}
+
+
+.artist img:hover
+{
+  border: solid 4px #FEC132;
+}
+
+.container01
+{
+  width: 100%;
+   
+}
+
+.container02
+{
+  margin-top: 15em;
+  padding-bottom: 2em;
+}
 
