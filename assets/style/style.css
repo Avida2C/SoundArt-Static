@@ -9,18 +9,42 @@
 }
 
 
-.artist img {
+.artistmenuspacing
+{
+  margin-top: 15em;
+  margin-bottom: 2em;
+}
+
+.artistmenuimage{
 
   cursor: pointer;
 
   width: 100%;
   max-width: 9em;
+  min-width: 9em;
   height: 100%;
   max-height: 9em;
+  min-height: 9em;
 
   border: 1px solid #FEC132;
   object-fit: cover;
-  margin: 1em;
+
+
+
+
+}
+.artistmenuimage:hover {
+  border: solid 4px #FEC132;
+  cursor: pointer;
+
+  width: 100%;
+  max-width: 9em;
+  min-width: 9em;
+  height: 100%;
+  max-height: 9em;
+  min-height: 9em;
+
+
 
 }
 
@@ -65,17 +89,35 @@
 
 }
 
+.btnsubmit
+{
+  width: 100%;
+  background-color: #FEC132;
+  margin-top: 1em;
+  border: 0;
+  padding: 1em;
 
-.artist img:hover {
-  border: solid 4px #FEC132;
 }
 
+.commentssection input , .commentssection textarea
+{
+ border-radius: 0;
+}
 .container01 {
   width: 100%;
 
 }
 
-.container02 {
-  margin-top: 15em;
-  padding-bottom: 2em;
+
+
+.imagewithreference
+{
+  margin-bottom: 1em;
+}
+
+.imagewithreference img
+{
+  width: 100%;
+
+  border-radius: 5px;
 }
