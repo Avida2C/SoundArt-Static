@@ -40,10 +40,10 @@
               <a class="nav-link px-5" href="#ArtistSection">Artists</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-5" href="#">News</a>
+              <a class="nav-link px-5" href="#ArticleSection">News</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-5" href="#">Contact</a>
+              <a class="nav-link px-5" href="contact.html">Contact</a>
             </li>
 
           </ul>
@@ -55,7 +55,7 @@
 
   <main>
     <!-- Artist Section-->
-    <div id="ArtistSection" class="container01 col-8 my-4 container-fluid">
+    <div id="ArtistSection" class="col-8 my-4 container-fluid">
 
       <!--Artist Background Image-->
       <div id="artistbackground" class="artistbackground">
@@ -206,7 +206,7 @@
       </div>
 
       <div class="my-5 justify-content-between d-flex">
-        <div class="articlesection">
+        <div id="ArticleSection">
 
           <div class="right">
             <div class="fullarticle pt-2 px-4 pb-4 rounded bg-light">
@@ -315,7 +315,7 @@
 
               </div>
               <div class="btnsection">
-                <Button id="commentbtn" class="btnsubmit" type="submit" onclick="commentbox()">Post Comment</Button>
+                <Button id="commentbtn" class="btnsubmit bottomBorderRadius" type="submit" onclick="commentbox()">Post Comment</Button>
               </div>
             </div>
           </div>
@@ -324,100 +324,102 @@
 
 
         <div class="ms-4 col-3">
-          <div class="articletitle bg-light px-2">
+          <div class="articletitle bg-light text-center py-2">
             <H2>More Articles</H2>
           </div>
 
 
           <div class="articledesc">
-            
+
             <div class="articlebackground" style="background-image: url(../Website/assets/images/thumbnail01.jpg) ;">
-              
+
               <div class="articleinfo">
-                
-                <a href="#">
+
+                <a href="article-whymusicmakesusfeelgood.html">
                   Will we ever... Understand why music makes us feel good?
                 </a>
                 <p>
                   <datetime>19/04/2013</datetime>
                 </p>
-              
-              </div>
-              
-            </div>
-
-              <div class="articlebackground" style="background-image: url(../Website/assets/images/thumbnail02.jpg);">
-                <div class="articleinfo">
-                  <a href="#">Nostalgia on Repeat
-                  </a>
-                  <p><datetime>19/04/2013</datetime></p>
-                </div>
-                
-              </div>
-
-
-                
-              <div class="articlebackground " style="background-image: url(../Website/assets/images/thumbnail03.jpg);"> 
-                  
-                <div class="articleinfo " >
-                    
-                  <a href="#">
-                    How Headphones Changed the World 
-                  </a>
-                    <p><datetime>30/05/2012</datetime></p>
-                  </div>
-                </div>
-
-
-                  <div class="articlebackground" style="background-image: url(../Website/assets/images/thumbnail04.jpg);">
-                    <div class="articleinfo">
-                      <a href="#">The Soundtrack of Your Life
-                      </a>
-                      <p class="text-white">
-                        <datetime>02/04/2006</datetime>
-                      </p>
-                    </div></div>
-
-
-
-                    <div class="articlebackground" style="background-image: url(../Website/assets/images/thumbnail05.jpg);">
-                      <div class="articleinfo" >
-                        <a href="#">A Punk Rock Museum Is Coming to Las Vegas
-                        </a>
-                        <p>
-                          <datetime>21/10/2022</datetime>
-                        </p>
-                      </div>
-                      </div>
-
-                      <div class="articlebackground" style="background-image: url(../Website/assets/images/thumbnail06.jpg);"> 
-                        <div class="articleinfo">
-                          <a href="#">Can a Musical Reminder Banish Bad Dreams?
-                          </a>
-                          <p>
-                            <datetime>27/10/2022</datetime>
-                          </p>
-                        </div>
-                      </div>
-
-
-                    </div>
-                    <div class="morebutton">
-                      <a href="#">More Articles</a>
-                    </div>
-
-
-                </div>
 
               </div>
 
             </div>
+
+            <div class="articlebackground" style="background-image: url(../Website/assets/images/thumbnail02.jpg);">
+              <div class="articleinfo">
+                <a href="#">Nostalgia on Repeat
+                </a>
+                <p>
+                  <datetime>19/04/2013</datetime>
+                </p>
+              </div>
+
+            </div>
+
+
+
+            <div class="articlebackground " style="background-image: url(../Website/assets/images/thumbnail03.jpg);">
+
+              <div class="articleinfo ">
+
+                <a href="#">
+                  How Headphones Changed the World
+                </a>
+                <p>
+                  <datetime>30/05/2012</datetime>
+                </p>
+              </div>
+            </div>
+
+
+            <div class="articlebackground" style="background-image: url(../Website/assets/images/thumbnail04.jpg);">
+              <div class="articleinfo">
+                <a href="#">The Soundtrack of Your Life
+                </a>
+                <p class="text-white">
+                  <datetime>02/04/2006</datetime>
+                </p>
+              </div>
+            </div>
+
+
+
+            <div class="articlebackground" style="background-image: url(../Website/assets/images/thumbnail05.jpg);">
+              <div class="articleinfo">
+                <a href="#">A Punk Rock Museum Is Coming to Las Vegas
+                </a>
+                <p>
+                  <datetime>21/10/2022</datetime>
+                </p>
+              </div>
+            </div>
+
+            <div class="articlebackground" style="background-image: url(../Website/assets/images/thumbnail06.jpg);">
+              <div class="articleinfo">
+                <a href="#">Can a Musical Reminder Banish Bad Dreams?
+                </a>
+                <p>
+                  <datetime>27/10/2022</datetime>
+                </p>
+              </div>
+            </div>
+
 
           </div>
+
+          <div class="morebtn py-2 text-center bottomBorderRadius">
+            <a href="#">
+              <h2>More Articles</h2>
+            </a>
+          </div>
+
+
         </div>
 
       </div>
 
+    </div>
   </main>
 
 
@@ -436,7 +438,7 @@
         <div class="input-group">
 
           <input id="subscribetext" type="email" required class="form-control" placeholder="Enter your email address">
-          
+
           <button id="subscribebtn" class="btn subbtn" type="submit" onclick="subscribeSuccess()">
 
             Subscribe
@@ -477,7 +479,7 @@
     </div>
 
   </footer>
-  
+
 
   <!--Icons From FontAwesome.com-->
   <script src="https://kit.fontawesome.com/e248044508.js" crossorigin="anonymous"></script>

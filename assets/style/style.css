@@ -17,6 +17,11 @@
   font-size: 14px;
 }
 
+.articletitle
+{
+  border-radius: 5px 5px 0px 0px ;
+}
+
 .articleinfo p{
   margin-top: 1em;
 }
@@ -32,6 +37,18 @@
   color: #FEC132;
 }
 
+.textspacing
+{
+  line-height: 0.5em;
+}
+
+
+
+.contactico
+{
+  text-align: center;
+  align-content: center;
+}
 
 .artistbackground {
   background-image: url("../images/thebeatles1967.jpg");
@@ -130,20 +147,22 @@
   margin-top: 1em;
   border: 0;
   padding: 1em;
-  border-radius: 0px 0px 5px 5px;
   font-weight: bold;
 
 }
+
+
+.bottomBorderRadius
+{
+  border-radius: 0px 0px 5px 5px;
+}
+
 
 .commentssection input,
 .commentssection textarea {
   border-radius: 0;
 }
 
-.container01 {
-  width: 100%;
-
-}
 
 #footerSection {
   background-color: #171717;
@@ -172,6 +191,22 @@
   border-radius: 5px;
 }
 
+
+.morebtn
+{
+  background-color: #FEC132;
+  
+}
+
+.morebtn a{
+  text-decoration: none;
+  color: black;
+} 
+.morebtn a:hover{
+  text-decoration: none;
+  color: black;
+} 
+
 .subbtn {
   background-color: #FEC132 !important;
   border-radius: 0px 5px 5px 0px !important;
@@ -184,4 +219,13 @@
 
 .show {
   display: block;
+}
+
+
+.fullarticle p
+{
+  margin-bottom: 3em;
+  line-height: 2em;
+  letter-spacing: 0.1em;
+  text-align: justify;
 }
