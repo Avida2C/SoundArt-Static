@@ -9,13 +9,12 @@
 }
 
 
-.artistmenuspacing
-{
+.artistmenuspacing {
   margin-top: 15em;
   margin-bottom: 2em;
 }
 
-.artistmenuimage{
+.artistmenuimage {
 
   cursor: pointer;
 
@@ -33,6 +32,7 @@
 
 
 }
+
 .artistmenuimage:hover {
   border: solid 4px #FEC132;
   cursor: pointer;
@@ -89,35 +89,64 @@
 
 }
 
-.btnsubmit
-{
+.btnsubmit {
   width: 100%;
   background-color: #FEC132;
   margin-top: 1em;
   border: 0;
   padding: 1em;
+  border-radius: 0px 0px 5px 5px;
+  font-weight: bold;
 
 }
 
-.commentssection input , .commentssection textarea
-{
- border-radius: 0;
+.commentssection input,
+.commentssection textarea {
+  border-radius: 0;
 }
+
 .container01 {
   width: 100%;
 
 }
 
+#footerSection {
+  background-color: #171717;
+}
+
+.footerlocation {
+
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
 
 
-.imagewithreference
-{
+
+.footerlocation p {
+  color: #ffffff;
+  letter-spacing: 0.1em;
+}
+
+.imagewithreference {
   margin-bottom: 1em;
 }
 
-.imagewithreference img
-{
+.imagewithreference img {
   width: 100%;
 
   border-radius: 5px;
+}
+
+.subbtn {
+  background-color: #FEC132 !important;
+  border-radius: 0px 5px 5px 0px !important;
+  font-weight: bold !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block;
 }

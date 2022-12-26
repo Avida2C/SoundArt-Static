@@ -79,10 +79,10 @@
         <!-- Artist Menu, The small images and what happens when clicked on images-->
         <div class="container-fluid d-flex">
           <!--1st Row of Artist options-->
-          <div class="artistmenuspacing ">
+          <div class="artistmenuspacing">
 
 
-            <img class="artistmenuimage mb-1" src="assets/images/thebeatles1967.jpg" alt="beatles" onclick="changeimage (
+            <img class="artistmenuimage" src="assets/images/thebeatles1967.jpg" alt="beatles" onclick="changeimage (
                 /* changeimage is a function found in javascript.js */
                 'The Beatles', 
                 'The Beatles were an English rock band, formed in Liverpool in 1960, that comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr. They are regarded as the most influential band of all time and were integral to the development of 1960s counterculture and popular music\'s recognition as an art form.', 
@@ -92,7 +92,7 @@
 
 
 
-            <img class="artistmenuimage mb-1" src="assets/images/Queen_band.jpg" alt="queen" onclick="changeimage (
+            <img class="artistmenuimage" src="assets/images/Queen_band.jpg" alt="queen" onclick="changeimage (
                 
                 'Queen', 
                 'Queen are a British rock band formed in London in 1970. The band comprised Freddie Mercury (lead vocals, piano), Brian May (guitar, vocals), Roger Taylor (drums, vocals) and John Deacon (bass). Their earliest works were influenced by progressive rock, hard rock and heavy metal, but the band gradually ventured into more conventional and radio-friendly works by incorporating further styles, such as arena rock and pop rock.', 
@@ -100,7 +100,7 @@
                 'assets/images/queen_band.jpg');">
 
 
-            <img class="artistmenuimage mb-1" src="assets/images/ACDC.jpg" alt="acdc" onclick="changeimage (
+            <img class="artistmenuimage" src="assets/images/ACDC.jpg" alt="acdc" onclick="changeimage (
                 'ACDC', 
                 'AC/DC (stylised as ACϟDC) are an Australian rock band formed in Sydney, New South Wales, Australia in 1973 by Scottish-born brothers Malcolm and Angus Young. Their music has been variously described as hard rock, blues rock, and heavy metal, but the band calls it simply \'rock and roll\'.', 
                 '#', 
@@ -109,7 +109,7 @@
 
 
 
-            <img class="artistmenuimage mb-1" src="assets/images/pinkfloyd.jpg" alt="pinkfloyd" onclick="changeimage (
+            <img class="artistmenuimage" src="assets/images/pinkfloyd.jpg" alt="pinkfloyd" onclick="changeimage (
                 'Pink Floyd', 
                 'Pink Floyd are an English rock band formed in London in 1965. Gaining an early following as one of the first British psychedelic groups, they were distinguished by their extended compositions, sonic experimentation, philosophical lyrics and elaborate live shows. They became a leading band of the progressive rock genre, cited by some as the greatest progressive rock band of all time.', 
                 '#', 
@@ -117,7 +117,7 @@
 
 
 
-            <img class="artistmenuimage mb-1" src="assets/images/rem.jpg" alt="rem" onclick="changeimage (
+            <img class="artistmenuimage" src="assets/images/rem.jpg" alt="rem" onclick="changeimage (
                 'REM', 
                 'R.E.M. was an American rock band from Athens, Georgia, formed in 1980 by drummer Bill Berry, guitarist Peter Buck, bassist Mike Mills, and lead vocalist Michael Stipe, who were students at the University of Georgia. One of the first alternative rock bands, R.E.M. was noted for Buck\'s ringing, arpeggiated guitar style; Stipe\'s distinctive vocal quality, unique stage presence, and obscure lyrics; Mills\'s melodic bass lines and backing vocals; and Berry\'s tight, economical drumming style.', 
                 '#', 
@@ -125,7 +125,7 @@
 
 
 
-            <img class="artistmenuimage mb-1" src="assets/images/police.jpg" alt="police" onclick="changeimage (
+            <img class="artistmenuimage" src="assets/images/police.jpg" alt="police" onclick="changeimage (
                 'The Police', 
                 'The Police were an English rock band formed in London in 1977.[1] For most of their history the line-up consisted of primary songwriter Sting (lead vocals, bass guitar), Andy Summers (guitar) and Stewart Copeland (drums, percussion). The Police became globally popular in the late 1970s and early 1980s. Emerging in the British new wave scene, they played a style of rock influenced by punk, reggae, and jazz.',
                 '#', 
@@ -134,7 +134,7 @@
 
 
 
-            <img class="artistmenuimage mb-1" src="assets/images/fob.jpg" alt="falloutboy" onclick="changeimage (
+            <img class="artistmenuimage" src="assets/images/fob.jpg" alt="falloutboy" onclick="changeimage (
                 'Fall Out Boy', 
                 'Fall Out Boy is an American rock band formed in Wilmette, Illinois, a suburb of Chicago, in 2001. The band consists of lead vocalist and rhythm guitarist Patrick Stump, bassist Pete Wentz, lead guitarist Joe Trohman, and drummer Andy Hurley. ',
                 '#', 
@@ -142,14 +142,14 @@
 
 
 
-            <img class="artistmenuimage mb-1" src="assets/images/blink182.jpg" alt="blink182" onclick="changeimage (
+            <img class="artistmenuimage" src="assets/images/blink182.jpg" alt="blink182" onclick="changeimage (
                 'Blink-182', 
                 'Blink-182 (stylized as blink-182) is an American rock band formed in Poway, California in 1992. Their current lineup consists of bassist/vocalist Mark Hoppus, guitarist/vocalist Tom DeLonge, and drummer Travis Barker. Though their sound has diversified throughout their career, their musical style blends catchy pop melodies with fast-paced punk rock. Their lyrics center on relationships, adolescent frustration, and maturity—or lack thereof.',
                 '#', 
                 'assets/images/blink182.jpg');">
 
 
-            <!-- 2nd  Row of Artist Options -->
+
 
             <img class="artistmenuimage" src="assets/images/Metallica.jpg" alt="metallica" onclick="changeimage (
                 'Metallica', 
@@ -206,9 +206,6 @@
               'assets/images/linkinpark.jpg');">
 
 
-
-
-
             <img class="artistmenuimage" src="assets/images/coldplay.jpg" alt="coldplay" onclick="changeimage (
                 'Coldplay', 
                 'Coldplay are a British rock band formed in London in 1997. They consist of vocalist and pianist Chris Martin, guitarist Jonny Buckland, bassist Guy Berryman, drummer Will Champion and creative director Phil Harvey. They met at University College London and began playing music together from 1996 to 1998, initially calling themselves Starfish.',
@@ -221,7 +218,6 @@
         </div>
 
       </div>
-
 
       <div class="my-5 justify-content-between d-flex">
         <div class="articlesection">
@@ -305,21 +301,35 @@
                 <h5>Leave a Reply</h5>
 
 
-                <form action="">
 
-                  <label for="usercomment"></label>
-                  <textarea class="form-control" name="usercomment" id="usercomment" cols="80" rows="10"
-                    placeholder="Comment"></textarea>
+                <textarea id="commentbox" class="form-control mb-2" name="usercomment" cols="80" rows="10"
+                  placeholder="Comment">
+                  </textarea>
 
-                  <label for="userfullname"></label>
-                  <input class="form-control" type="text" id="userfullname" name="userfullname" placeholder="Full Name">
-                  <label for="useremail"></label>
-                  <input class="form-control" type="email" id="useremail" name="useremail" placeholder="Email">
+                <div class="d-flex col-12 justify-content-between">
+
+                  <div class="w-50">
+
+
+                    <input id="commentfullname" class="form-control" type="text" id="userfullname" name="userfullname"
+                      placeholder="Full Name">
+
+                  </div>
+
+                  <div class="ms-2 w-50">
+
+
+                    <input id="commentemail" class="form-control" type="email" id="useremail" name="useremail"
+                      placeholder="Email">
+
+                  </div>
+                </div>
 
                 </form>
+
               </div>
               <div class="btnsection">
-                <Button class="btnsubmit" type="submit">Post Comment</Button>
+                <Button id="commentbtn" class="btnsubmit" type="submit" onclick="commentbox()">Post Comment</Button>
               </div>
             </div>
           </div>
@@ -391,9 +401,6 @@
                     </div>
                   </div>
 
-
-
-
                 </div>
 
               </div>
@@ -408,9 +415,63 @@
   </main>
 
 
-  <footer>
+  <footer id="footerSection">
+
+
+    <div class="container-fluid py-4 col-8 d-flex">
+
+
+      <div class="col-6 ">
+
+        <!--Subscribe to newsletter section-->
+        <img class="mb-2" src="assets/images/logolite.png" alt="Soundart">
+
+
+        <div class="input-group">
+
+          <input id="subscribetext" type="email" required class="form-control" placeholder="Enter your email address">
+          
+          <button id="subscribebtn" class="btn subbtn" type="submit" onclick="subscribeSuccess()">
+
+            Subscribe
+
+          </button>
+          <!--OnClick input box will disappear and it will show my message in h2-->
+          <h2 id="subscribeoutput" class="text-warning hide">You have subscribed to our newsletter!</h2>
+
+        </div>
+
+      </div>
+      <!--Social Media Icons-->
+      <div class="container d-flex justify-content-end align-self-end">
+        <div class="d-flex">
+          <a href="#" class="nav-link d-flex mx-1"><i class="fa-brands fa-inverse fa-square-facebook fa-3x"></i>
+          </a>
+          <a href="#" class="nav-link d-flex mx-1"><i class="fa-brands fa-inverse fa-square-youtube fa-3x"></i>
+          </a>
+          <a href="#" class="nav-link d-flex mx-1"><i class="fa-brands fa-inverse fa-square-twitter fa-3x"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+    <!--Location-->
+    <div class="footerlocation container-fluid col-8 d-flex justify-content-center py-2 ">
+      <p class="pt-2"><b>SoundArt</b> - 1234 Lorem ipsum, dolor sit street, Malta, AAA1456 - Contact (356)12 341234 </p>
+    </div>
+    <!-- More Links -->
+    <div class="container-fluid d-flex justify-content-around col-8 px-3 py-3 mt-3 text-white">
+      <a class="text-decoration-none text-white" href="#">Privacy Policy</a>
+      <p>&copy;2022 SoundArt</p>
+      <a class="text-decoration-none text-white" href="#">Terms of Use</a>
+
+    </div>
+
+
+    </div>
 
   </footer>
+  
 
   <!--Icons From FontAwesome.com-->
   <script src="https://kit.fontawesome.com/e248044508.js" crossorigin="anonymous"></script>
