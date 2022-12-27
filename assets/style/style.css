@@ -1,70 +1,5 @@
-.articlebackground
-{
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  margin:0px;
-  border-bottom: 2px solid #FEC132;
-  padding: 0.8em;
-}
+/* Elements */ 
 
-.articleinfo
-{
-  
-  margin-top: 6em;
-  color: white;
-  font-size: 14px;
-}
-
-.articletitle
-{
-  border-radius: 5px 5px 0px 0px ;
-}
-
-.articleinfo p{
-  margin-top: 1em;
-}
-
-.textlink a{
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.textlink a:hover{
-  color: #FEC132;
-}
-
-.textspacing
-{
-  line-height: 0.5em;
-}
-
-
-
-.contactico
-{
-  text-align: center;
-  align-content: center;
-}
-
-.artistbackground {
-  background-image: url("../images/thebeatles1967.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
-  border-radius: 5px;
-  padding: 1em;
-}
-
-
-.artistmenuspacing {
-  margin-top: 15em;
-  margin-bottom: 2em;
-}
 
 .artistmenuimage {
 
@@ -79,10 +14,6 @@
 
   border: 1px solid #FEC132;
   object-fit: cover;
-
-
-
-
 }
 
 .artistmenuimage:hover {
@@ -100,20 +31,6 @@
 
 }
 
-#artistlink {
-  background-color: #FEC132;
-
-  color: black;
-
-  border-radius: 5px;
-
-  margin-left: auto;
-  margin-right: auto;
-
-  text-align: center;
-
-  padding: 0.2em;
-}
 
 .artisttext {
   color: #FEC132;
@@ -141,94 +58,42 @@
 
 }
 
-.btnsubmit {
-  width: 100%;
-  background-color: #FEC132;
-  margin-top: 1em;
-  border: 0;
+
+
+/* Styles */
+
+
+.btnStyle
+{
+  background-color: #FEC132 ;
+  color: black;
   padding: 1em;
   font-weight: bold;
-
 }
 
+.bottomBorder
+{
+  border-bottom: 2px solid #FEC132;
+}
 
 .bottomBorderRadius
 {
   border-radius: 0px 0px 5px 5px;
+  border:0;
 }
 
-
-.commentssection input,
-.commentssection textarea {
-  border-radius: 0;
-}
-
-
-#footerSection {
-  background-color: #171717;
-}
-
-.footerlocation {
-
-  border-top: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
-}
-
-
-
-.footerlocation p {
-  color: #ffffff;
-  letter-spacing: 0.1em;
-}
-
-.imagewithreference {
-  margin-bottom: 1em;
-}
-
-.imagewithreference img {
-  width: 100%;
-
-  border-radius: 5px;
-}
-
-
-.morebtn
-{
-  background-color: #FEC132;
-  
-}
-
-.morebtn a{
+.btnLink a{
   text-decoration: none;
-  color: black;
-} 
-.morebtn a:hover{
-  text-decoration: none;
-  color: black;
-} 
-
-.subbtn {
-  background-color: #FEC132 !important;
-  border-radius: 0px 5px 5px 0px !important;
-  font-weight: bold !important;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+  border: 0;
 }
 
-.hide {
-  display: none !important;
+.btnLink a:hover{
+  color: #000000;
 }
 
-.show {
-  display: block;
-}
-
-
-.fullarticle p
-{
-  margin-bottom: 3em;
-  line-height: 2em;
-  letter-spacing: 0.1em;
-  text-align: justify;
-}
 
 .custom
 {
@@ -236,11 +101,40 @@
   border: 5px solid #171717 !important;
 }
 
+.hide {
+  display: none !important;
+}
+
+.imageStyle
+{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+
+.moreSpace
+{
+  margin-top: 6em;
+}
+
+.rightRadius
+{
+ border-radius: 0px 5px 5px 0px !important;
+ border:0;
+}
+
+.spaceStyle
+{
+  padding: 0.8em;
+}
+
+.show {
+  display: block;
+}
 
 .thumbnailstyle
 {
-
-  height: 100%;
   max-height: 15em;
   min-height: 15em;
   object-fit: cover;
@@ -250,4 +144,51 @@
 {
   min-height: 5em;
   max-height: 5em;
+}
+
+.textlink a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.textlink a:hover{
+  color: #FEC132;
+}
+
+
+.textStyle
+{
+  line-height: 2em;
+  word-spacing: 0.4em;
+  text-align: justify;
+}
+
+
+/* IDs */ 
+
+#artistbackground {
+  background-image: url("../images/thebeatles1967.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+#artistlink {
+  background-color: #FEC132;
+
+  color: black;
+
+  border-radius: 5px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+
+  padding: 0.2em;
 }

@@ -58,7 +58,7 @@
     <div id="ArtistSection" class="col-8 my-4 container-fluid">
 
       <!--Artist Background Image-->
-      <div id="artistbackground" class="artistbackground">
+      <div id="artistbackground">
 
         <!--Content with Artist Information -->
         <div class="opacitylayer">
@@ -79,7 +79,7 @@
         <!-- Artist Menu, The small images and what happens when clicked on images-->
         <div class="container-fluid d-flex">
           <!--1st Row of Artist options-->
-          <div class="artistmenuspacing">
+          <div style="margin-top: 15em; margin-bottom: 2em;">
 
 
             <img class="artistmenuimage mb-1" src="assets/images/thebeatles1967.jpg" alt="beatles" onclick="changeimage (
@@ -209,8 +209,8 @@
         <div id="ArticleSection">
 
           <div class="right">
-            <div class="fullarticle pt-2 px-4 pb-4 rounded bg-light">
-              <div class="title">
+            <div class="pt-2 px-4 pb-4 rounded bg-light textStyle">
+              <div class="">
                 <h1>See rare photos of the Beatles before they were famous!</h1>
                 <h5>Molly Enking</h5>
                 <p>
@@ -218,8 +218,8 @@
                 </p>
               </div>
               <article>
-                <div class="imagewithreference">
-                  <img class=" " src="assets/images/beatles01.jpg" alt="beatles01">
+                <div class=" ">
+                  <img class="w-100 rounded mb-1 imageStyle textStyle" src="assets/images/beatles01.jpg" alt="beatles01">
                   <p>The Beatles’ George Harrison, Paul McCartney, John Lennon and original drummer Pete Best play a gig
                     at
                     the Cavern Club in Liverpool. Courtesy of Tracks Ltd.</p>
@@ -256,8 +256,8 @@
                   in
                   the early 1960s, before they had officially released any music.
                 </p>
-                <div class="imagewithreference">
-                  <img src="assets/images/beatles02.jpg" alt="beatles02">
+                <div class=" ">
+                  <img class="w-100 rounded mb-1 imageStyle" src="assets/images/beatles02.jpg" alt="beatles02">
 
                   <p>The photos were taken by a Liverpool-based fan. Courtesy of Tracks Ltd.</p>
                 </div>
@@ -281,23 +281,23 @@
               </article>
 
             </div>
-            <div class="commentssection rounded bg-light mt-4">
+            <div class="rounded bg-light mt-4">
               <div class="form px-4 pt-4">
                 <H1>Comments</H1>
                 <h5>Leave a Reply</h5>
 
 
 
-                <textarea id="commentbox" class="form-control mb-2" name="usercomment" cols="80" rows="10"
-                  placeholder="Comment">
+                <textarea id="commentbox" class="w-100 mb-2" name="usercomment" cols="80" rows="10"
+                  >
                   </textarea>
 
-                <div class="d-flex col-12 justify-content-between">
+                <div class="d-flex justify-content-between">
 
                   <div class="w-50">
 
 
-                    <input id="commentfullname" class="form-control" type="text" id="userfullname" name="userfullname"
+                    <input id="commentfullname" class="w-100 p-2" type="text" id="userfullname" name="userfullname"
                       placeholder="Full Name">
 
                   </div>
@@ -305,7 +305,7 @@
                   <div class="ms-2 w-50">
 
 
-                    <input id="commentemail" class="form-control" type="email" id="useremail" name="useremail"
+                    <input id="commentemail" class="w-100 p-2" type="email" id="useremail" name="useremail"
                       placeholder="Email">
 
                   </div>
@@ -314,8 +314,8 @@
                 </form>
 
               </div>
-              <div class="btnsection">
-                <Button id="commentbtn" class="btnsubmit bottomBorderRadius" type="submit" onclick="commentbox()">Post Comment</Button>
+              <div class=" ">
+                <Button id="commentbtn" class="btnStyle btnLink w-100 text-center bottomBorderRadius mt-3 fs-3" type="submit" onclick="commentbox()">Post Comment</Button>
               </div>
             </div>
           </div>
@@ -324,21 +324,21 @@
 
 
         <div class="ms-4 col-3">
-          <div class="articletitle bg-light text-center py-2">
+          <div class="rounded bg-light text-center py-2">
             <H2>More Articles</H2>
           </div>
 
 
-          <div class="articledesc">
+          <!-- More Articles -->
+          <div>
 
-            <div class="articlebackground" style="background-image: url(../Website/assets/images/thumbnail01.jpg) ;">
-
-              <div class="articleinfo textlink">
+            <div class="w-100 imageStyle spaceStyle bottomBorder" style="background-image: url(../Website/assets/images/thumbnail01.jpg) ;">
+              <div class="text-white textlink moreSpace">
 
                 <a href="article-whymusicmakesusfeelgood.html">
                   Will we ever... Understand why music makes us feel good?
                 </a>
-                <p>
+                <p class="fs-6">
                   <datetime>19/04/2013</datetime>
                 </p>
 
@@ -346,11 +346,11 @@
 
             </div>
 
-            <div class="articlebackground" style="background-image: url(../Website/assets/images/thumbnail02.jpg);">
-              <div class="articleinfo textlink">
+            <div class="w-100 imageStyle spaceStyle bottomBorder" style="background-image: url(../Website/assets/images/thumbnail02.jpg);">
+              <div class="text-white textlink moreSpace">
                 <a href="#">Nostalgia on Repeat
                 </a>
-                <p>
+                <p class="fs-6">
                   <datetime>19/04/2013</datetime>
                 </p>
               </div>
@@ -359,25 +359,25 @@
 
 
 
-            <div class="articlebackground " style="background-image: url(../Website/assets/images/thumbnail03.jpg);">
+            <div class="w-100 imageStyle spaceStyle bottomBorder" style="background-image: url(../Website/assets/images/thumbnail03.jpg);">
 
-              <div class="articleinfo textlink">
+              <div class="text-white textlink moreSpace">
 
                 <a href="#">
                   How Headphones Changed the World
                 </a>
-                <p>
+                <p class="fs-6">
                   <datetime>30/05/2012</datetime>
                 </p>
               </div>
             </div>
 
 
-            <div class="articlebackground" style="background-image: url(../Website/assets/images/thumbnail04.jpg);">
-              <div class="articleinfo textlink">
+            <div class="w-100 imageStyle spaceStyle bottomBorder" style="background-image: url(../Website/assets/images/thumbnail04.jpg);">
+              <div class="text-white textlink moreSpace">
                 <a href="#">The Soundtrack of Your Life
                 </a>
-                <p class="text-white">
+                <p class="fs-6">
                   <datetime>02/04/2006</datetime>
                 </p>
               </div>
@@ -385,21 +385,21 @@
 
 
 
-            <div class="articlebackground" style="background-image: url(../Website/assets/images/thumbnail05.jpg);">
-              <div class="articleinfo textlink">
+            <div class="w-100 imageStyle spaceStyle bottomBorder" style="background-image: url(../Website/assets/images/thumbnail05.jpg);">
+              <div class="text-white textlink moreSpace">
                 <a href="#">A Punk Rock Museum Is Coming to Las Vegas
                 </a>
-                <p>
+                <p class="fs-6">
                   <datetime>21/10/2022</datetime>
                 </p>
               </div>
             </div>
 
-            <div class="articlebackground" style="background-image: url(../Website/assets/images/thumbnail06.jpg);">
-              <div class="articleinfo textlink">
+            <div class="w-100 imageStyle spaceStyle bottomBorder" style="background-image: url(../Website/assets/images/thumbnail06.jpg);">
+              <div class="text-white textlink moreSpace">
                 <a href="#">Can a Musical Reminder Banish Bad Dreams?
                 </a>
-                <p>
+                <p class="fs-6">
                   <datetime>27/10/2022</datetime>
                 </p>
               </div>
@@ -408,7 +408,7 @@
 
           </div>
 
-          <div class="morebtn py-2 text-center bottomBorderRadius">
+          <div class="btnStyle btnLink text-center bottomBorderRadius">
             <a href="morearticles.html">
               <h2>More Articles</h2>
             </a>
@@ -423,7 +423,7 @@
   </main>
 
 
-  <footer id="footerSection">
+  <footer id="footerSection" style="background-color: #171717;">
 
 
     <div class="container-fluid py-4 col-8 d-flex">
@@ -439,7 +439,7 @@
 
           <input id="subscribetext" type="email" required class="form-control" placeholder="Enter your email address">
 
-          <button id="subscribebtn" class="btn subbtn" type="submit" onclick="subscribeSuccess()">
+          <button id="subscribebtn" class="btnLink btnStyle rightRadius" type="submit" onclick="subscribeSuccess()">
 
             Subscribe
 
@@ -464,11 +464,11 @@
       </div>
     </div>
     <!--Location-->
-    <div class="footerlocation container-fluid col-8 d-flex justify-content-center py-2 ">
-      <p class="pt-2"><b>SoundArt</b> - 1234 Lorem ipsum, dolor sit street, Malta, AAA1456 - Contact (356)12 341234 </p>
+    <div class="container-fluid col-8 d-flex justify-content-center py-4 mt-4 border-top border-bottom border-white" >
+      <p class="pt-2 text-white" style="letter-spacing: 0.1em; word-spacing: 0.2em;"><b>SoundArt</b> - 1234 Lorem ipsum, dolor sit street, Malta, AAA1456 - Contact (356)12 341234 </p>
     </div>
     <!-- More Links -->
-    <div class="container-fluid d-flex justify-content-around col-8 px-3 py-3 mt-3 text-white">
+    <div class="container-fluid d-flex justify-content-around col-8 px-3 py-4 mt-3 text-white">
       <a class="text-decoration-none text-white" href="#">Privacy Policy</a>
       <p>&copy;2022 SoundArt</p>
       <a class="text-decoration-none text-white" href="#">Terms of Use</a>
