@@ -28,3 +28,10 @@ function sendmessage() {
     document.getElementById("messagebtn").setAttribute("disabled", "");
     document.getElementById("messagebtn").innerText = "Message Sent!";
 }
+
+
+
+function gallery(galleryBackground)
+{
+    document.getElementById("gallery").style.backgroundImage = 'url("' + galleryBackground + '")';
+}

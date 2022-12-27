@@ -1,4 +1,13 @@
 /* Elements */
+.artistbackground {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x:center;
+  background-position:center;
+  border-radius: 5px;
+  padding: 1em;
+}
 
 .artistmenuimage {
 
@@ -51,6 +60,12 @@
   /* number of lines to show */
   line-clamp: 4;
   -webkit-box-orient: vertical;
+}
+
+.heightArtist
+{
+  min-height: 45em;
+  max-height: 45em;
 }
 
 /* Styles */
@@ -111,6 +126,16 @@
   border: 0;
 }
 
+.simplelink a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+.simplelink a:hover {
+  color: #000000;
+}
+
 .spaceStyle {
   padding: 0.8em;
 }
@@ -142,22 +167,22 @@
 }
 
 .textStyle {
-  line-height: 2em;
+  line-height: 2.5em;
   word-spacing: 0.4em;
   text-align: justify;
+  
+}
+
+.imageSize
+{
+  max-height: 10em;
+  min-height: 10em;
+  object-fit: cover;
+
+  
 }
 
 /* IDs */
-
-#artistbackground {
-  background-image: url("../images/thebeatles1967.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
-  border-radius: 5px;
-  padding: 1em;
-}
 
 #artistlink {
   background-color: #FEC132;
@@ -167,4 +192,12 @@
   margin-right: auto;
   text-align: center;
   padding: 0.2em;
+}
+
+#gallery
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+
 }
