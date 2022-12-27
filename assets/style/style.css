@@ -26,14 +26,14 @@
   margin-top: 1em;
 }
 
-.articleinfo a{
+.textlink a{
   text-decoration: none;
   color: white;
   font-weight: bold;
   font-size: 20px;
 }
 
-.articleinfo a:hover{
+.textlink a:hover{
   color: #FEC132;
 }
 
@@ -228,4 +228,26 @@
   line-height: 2em;
   letter-spacing: 0.1em;
   text-align: justify;
+}
+
+.custom
+{
+  background-color: #171717 !important;
+  border: 5px solid #171717 !important;
+}
+
+
+.thumbnailstyle
+{
+
+  height: 100%;
+  max-height: 15em;
+  min-height: 15em;
+  object-fit: cover;
+}
+
+.textmax
+{
+  min-height: 5em;
+  max-height: 5em;
 }
