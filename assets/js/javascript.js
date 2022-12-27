@@ -31,7 +31,6 @@ function sendmessage() {
 
 
 
-function gallery(galleryBackground)
-{
+function gallery(galleryBackground) {
     document.getElementById("gallery").style.backgroundImage = 'url("' + galleryBackground + '")';
 }

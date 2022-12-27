@@ -3,8 +3,8 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x:center;
-  background-position:center;
+  background-position-x: center;
+  background-position: center;
   border-radius: 5px;
   padding: 1em;
 }
@@ -62,8 +62,7 @@
   -webkit-box-orient: vertical;
 }
 
-.heightArtist
-{
+.heightArtist {
   min-height: 45em;
   max-height: 45em;
 }
@@ -96,7 +95,7 @@
 }
 
 .btnLink a:hover {
-  color: #000000; 
+  color: #000000;
   text-decoration: none;
 }
 
@@ -170,16 +169,15 @@
   line-height: 2.5em;
   word-spacing: 0.4em;
   text-align: justify;
-  
+
 }
 
-.imageSize
-{
+.imageSize {
   max-height: 10em;
   min-height: 10em;
   object-fit: cover;
 
-  
+
 }
 
 /* IDs */
@@ -194,8 +192,7 @@
   padding: 0.2em;
 }
 
-#gallery
-{
+#gallery {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
