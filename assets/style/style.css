@@ -1,5 +1,4 @@
-/* Elements */ 
-
+/* Elements */
 
 .artistmenuimage {
 
@@ -27,10 +26,7 @@
   max-height: 9em;
   min-height: 9em;
 
-
-
 }
-
 
 .artisttext {
   color: #FEC132;
@@ -55,34 +51,28 @@
   /* number of lines to show */
   line-clamp: 4;
   -webkit-box-orient: vertical;
-
 }
-
-
 
 /* Styles */
 
-
-.btnStyle
-{
-  background-color: #FEC132 ;
+.btnStyle {
+  background-color: #FEC132;
   color: black;
   padding: 1em;
   font-weight: bold;
+  border: 0;
 }
 
-.bottomBorder
-{
+.bottomBorder {
   border-bottom: 2px solid #FEC132;
 }
 
-.bottomBorderRadius
-{
+.bottomBorderRadius {
   border-radius: 0px 0px 5px 5px;
-  border:0;
+  border: 0;
 }
 
-.btnLink a{
+.btnLink a {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -90,13 +80,12 @@
   border: 0;
 }
 
-.btnLink a:hover{
+.btnLink a:hover {
   color: #000000;
 }
 
 
-.custom
-{
+.custom {
   background-color: #171717 !important;
   border: 5px solid #171717 !important;
 }
@@ -105,27 +94,23 @@
   display: none !important;
 }
 
-.imageStyle
-{
+.imageStyle {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
 }
 
 
-.moreSpace
-{
+.moreSpace {
   margin-top: 6em;
 }
 
-.rightRadius
-{
- border-radius: 0px 5px 5px 0px !important;
- border:0;
+.rightRadius {
+  border-radius: 0px 5px 5px 0px !important;
+  border: 0;
 }
 
-.spaceStyle
-{
+.spaceStyle {
   padding: 0.8em;
 }
 
@@ -133,40 +118,35 @@
   display: block;
 }
 
-.thumbnailstyle
-{
+.thumbnailstyle {
   max-height: 15em;
   min-height: 15em;
   object-fit: cover;
 }
 
-.textmax
-{
+.textmax {
   min-height: 5em;
   max-height: 5em;
 }
 
-.textlink a{
+.textlink a {
   text-decoration: none;
   color: white;
   font-weight: bold;
   font-size: 20px;
 }
 
-.textlink a:hover{
+.textlink a:hover {
   color: #FEC132;
 }
 
-
-.textStyle
-{
+.textStyle {
   line-height: 2em;
   word-spacing: 0.4em;
   text-align: justify;
 }
 
-
-/* IDs */ 
+/* IDs */
 
 #artistbackground {
   background-image: url("../images/thebeatles1967.jpg");
@@ -180,15 +160,10 @@
 
 #artistlink {
   background-color: #FEC132;
-
   color: black;
-
   border-radius: 5px;
-
   margin-left: auto;
   margin-right: auto;
-
   text-align: center;
-
   padding: 0.2em;
 }
