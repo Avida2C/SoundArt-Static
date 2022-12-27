@@ -19,3 +19,12 @@ function commentbox() {
     document.getElementById("commentbtn").setAttribute("disabled", "");
     document.getElementById("commentbtn").innerText = "Comment Sent!";
 }
+
+
+function sendmessage() {
+    document.getElementById("userMessage").setAttribute("disabled", "");
+    document.getElementById("userEmail").setAttribute("disabled", "");
+    document.getElementById("userFullname").setAttribute("disabled", "");
+    document.getElementById("messagebtn").setAttribute("disabled", "");
+    document.getElementById("messagebtn").innerText = "Message Sent!";
+}
