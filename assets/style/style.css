@@ -6,7 +6,12 @@
   background-position-x: center;
   background-position: center;
   border-radius: 5px;
-  padding: 1em;
+}
+
+
+.imagePositioning
+{
+  margin-top: auto;
 }
 
 .artistmenuimage {
@@ -24,10 +29,12 @@
   object-fit: cover;
 }
 
+
+
+
 .artistmenuimage:hover {
   border: solid 4px #FEC132;
   cursor: pointer;
-
   width: 100%;
   max-width: 9em;
   min-width: 9em;
@@ -39,15 +46,10 @@
 
 .artisttext {
   color: #FEC132;
-  margin-left: 58%;
-  margin-right: 42%;
-
   background-color: rgba(0, 0, 0, 0.45);
-
   border-radius: 5px;
-  padding: 1em;
-
 }
+
 
 .artisttext p {
   overflow: hidden;
@@ -56,7 +58,7 @@
 
 
   display: -webkit-box;
-    /* number of lines to show */
+  /* number of lines to show */
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
@@ -173,8 +175,6 @@
   max-height: 10em;
   min-height: 10em;
   object-fit: cover;
-
-
 }
 
 /* IDs */
@@ -196,3 +196,59 @@
 
 }
 
+/* Media Queries */
+
+@media screen and (max-width: 375px) {
+  .artistmenuimage {
+
+    max-width: 5em;
+    min-width: 5em;
+    max-height: 5em;
+    min-height: 5em;
+  }
+
+  .artistmenuimage:hover {
+    max-width: 6em;
+    min-width: 6em;
+    max-height: 6em;
+    min-height: 6em;
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .artistmenuimage {
+
+    max-width: 6em;
+    min-width: 6em;
+    max-height: 6em;
+    min-height: 6em;
+  }
+
+  .artistmenuimage:hover {
+
+    max-width: 6em;
+    min-width: 6em;
+    max-height: 6em;
+    min-height: 6em;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .artistmenuimage {
+
+    max-width: 5em;
+    min-width: 5em;
+    max-height: 5em;
+    min-height: 5em;
+  }
+
+  .artistmenuimage:hover {
+    max-width: 5em;
+    min-width: 5em;
+    max-height: 5em;
+    min-height: 5em;
+  }
+}
