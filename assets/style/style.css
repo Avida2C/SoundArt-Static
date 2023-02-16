@@ -110,12 +110,25 @@
   display: none !important;
 }
 
+.imageBorder{
+   border-radius: 5px;
+}
+
+.imageBorder:hover{
+  border: 4px solid #FEC132;
+}
+
+.imageSize {
+  max-height: 10em;
+  min-height: 10em;
+  object-fit: cover;
+}
+
 .imageStyle {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
 }
-
 
 .moreSpace {
   margin-top: 6em;
@@ -171,11 +184,6 @@
 
 }
 
-.imageSize {
-  max-height: 10em;
-  min-height: 10em;
-  object-fit: cover;
-}
 
 /* IDs */
 
@@ -195,6 +203,7 @@
   background-position-x: center;
 
 }
+
 
 /* Media Queries */
 
